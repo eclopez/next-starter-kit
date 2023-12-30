@@ -3,7 +3,16 @@
   "version": "1.0.0",
   "description": "My personal starter kit for Next.js projects.",
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "author": "Erik Lopez",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
