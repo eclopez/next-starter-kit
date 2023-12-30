@@ -1,0 +1,9 @@
+{
+  "name": "next-starter-kit",
+  "version": "1.0.0",
+  "description": "My personal starter kit for Next.js projects.",
+  "scripts": {
+  },
+  "author": "Erik Lopez",
+  "license": "MIT"
+}
