@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 
+import "@/styles/global.css";
+
 export const metadata: Metadata = {
   title: "Next Starter Kit",
   description: "Starting point for Next.js projects",
