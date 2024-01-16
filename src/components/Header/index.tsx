@@ -1,11 +1,8 @@
-interface HeaderProps {
-  text: string;
-}
-
-export default function Header({ text }: HeaderProps) {
+export default async function Header() {
   return (
     <header>
-      <h1 className="text-3xl">{text}</h1>
+      <h1 className="text-3xl">Title</h1>
+      <h2 className="text-xl">Subtitle</h2>
     </header>
   );
 }
